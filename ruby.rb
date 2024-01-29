@@ -20,3 +20,7 @@ Net::SSH.start( HOST, USER, :password => PASS ) do|ssh|
   puts output
 end
 
+HOSTS = ['192.168.1.113']
+
+print HOSTS
+
